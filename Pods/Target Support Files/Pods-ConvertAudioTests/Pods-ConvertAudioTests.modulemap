@@ -1,0 +1,6 @@
+framework module Pods_ConvertAudioTests {
+  umbrella header "Pods-ConvertAudioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

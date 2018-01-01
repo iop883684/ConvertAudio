@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A558F09797787323FF73BD /* Pods_ConvertAudioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EFCBC339DD41B2AEBA91FF /* Pods_ConvertAudioTests.framework */; };
+		696D4842F60655342F9D5AC8 /* Pods_ConvertAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F273B6CAE5DD217184E2372F /* Pods_ConvertAudio.framework */; };
+		DCA4196D1FE3D20A002E1890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4196C1FE3D20A002E1890 /* AppDelegate.swift */; };
+		DCA4196F1FE3D20A002E1890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4196E1FE3D20A002E1890 /* ViewController.swift */; };
+		DCA419721FE3D20A002E1890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA419701FE3D20A002E1890 /* Main.storyboard */; };
+		DCA419741FE3D20A002E1890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA419731FE3D20A002E1890 /* Assets.xcassets */; };
+		DCA419771FE3D20A002E1890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA419751FE3D20A002E1890 /* LaunchScreen.storyboard */; };
+		DCA419821FE3D20A002E1890 /* ConvertAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA419811FE3D20A002E1890 /* ConvertAudioTests.swift */; };
+		DCA4198D1FE3D212002E1890 /* SongExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4198C1FE3D212002E1890 /* SongExporter.swift */; };
+		DCA4198F1FE3D239002E1890 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4198E1FE3D239002E1890 /* Utility.swift */; };
+		DCA419911FE3D863002E1890 /* record_93.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DCA419901FE3D85A002E1890 /* record_93.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA4197E1FE3D20A002E1890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA419611FE3D20A002E1890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA419681FE3D20A002E1890;
+			remoteInfo = ConvertAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24CC70327D86DAC77AB3DAE7 /* Pods-ConvertAudioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertAudioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertAudioTests/Pods-ConvertAudioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DAE1D7BFF9C5E56B797907C /* Pods-ConvertAudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertAudioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertAudioTests/Pods-ConvertAudioTests.release.xcconfig"; sourceTree = "<group>"; };
+		99EFCBC339DD41B2AEBA91FF /* Pods_ConvertAudioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertAudioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04FF369368B8578CB8D9992 /* Pods-ConvertAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertAudio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertAudio/Pods-ConvertAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7A81971FFAAAD500350E32 /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		DCA419691FE3D20A002E1890 /* ConvertAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4196C1FE3D20A002E1890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA4196E1FE3D20A002E1890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA419711FE3D20A002E1890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA419731FE3D20A002E1890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA419761FE3D20A002E1890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA419781FE3D20A002E1890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA4197D1FE3D20A002E1890 /* ConvertAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA419811FE3D20A002E1890 /* ConvertAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAudioTests.swift; sourceTree = "<group>"; };
+		DCA419831FE3D20A002E1890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA4198C1FE3D212002E1890 /* SongExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongExporter.swift; sourceTree = "<group>"; };
+		DCA4198E1FE3D239002E1890 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DCA419901FE3D85A002E1890 /* record_93.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = record_93.m4a; sourceTree = "<group>"; };
+		F273B6CAE5DD217184E2372F /* Pods_ConvertAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0E17D0355CD75DD4AD9162 /* Pods-ConvertAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertAudio.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertAudio/Pods-ConvertAudio.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA419661FE3D20A002E1890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696D4842F60655342F9D5AC8 /* Pods_ConvertAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4197A1FE3D20A002E1890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A558F09797787323FF73BD /* Pods_ConvertAudioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6C1F9C8DFB215CA36FAC35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B04FF369368B8578CB8D9992 /* Pods-ConvertAudio.debug.xcconfig */,
+				FC0E17D0355CD75DD4AD9162 /* Pods-ConvertAudio.release.xcconfig */,
+				24CC70327D86DAC77AB3DAE7 /* Pods-ConvertAudioTests.debug.xcconfig */,
+				6DAE1D7BFF9C5E56B797907C /* Pods-ConvertAudioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ED02B4B44D0C7D2067233E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F273B6CAE5DD217184E2372F /* Pods_ConvertAudio.framework */,
+				99EFCBC339DD41B2AEBA91FF /* Pods_ConvertAudioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA419601FE3D20A002E1890 = {
+			isa = PBXGroup;
+			children = (
+				DC7A81971FFAAAD500350E32 /* BridgeHeader.h */,
+				DCA4196B1FE3D20A002E1890 /* ConvertAudio */,
+				DCA419801FE3D20A002E1890 /* ConvertAudioTests */,
+				DCA4196A1FE3D20A002E1890 /* Products */,
+				3A6C1F9C8DFB215CA36FAC35 /* Pods */,
+				6ED02B4B44D0C7D2067233E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA4196A1FE3D20A002E1890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA419691FE3D20A002E1890 /* ConvertAudio.app */,
+				DCA4197D1FE3D20A002E1890 /* ConvertAudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA4196B1FE3D20A002E1890 /* ConvertAudio */ = {
+			isa = PBXGroup;
+			children = (
+				DCA419901FE3D85A002E1890 /* record_93.m4a */,
+				DCA4196C1FE3D20A002E1890 /* AppDelegate.swift */,
+				DCA4196E1FE3D20A002E1890 /* ViewController.swift */,
+				DCA4198C1FE3D212002E1890 /* SongExporter.swift */,
+				DCA4198E1FE3D239002E1890 /* Utility.swift */,
+				DCA419701FE3D20A002E1890 /* Main.storyboard */,
+				DCA419731FE3D20A002E1890 /* Assets.xcassets */,
+				DCA419751FE3D20A002E1890 /* LaunchScreen.storyboard */,
+				DCA419781FE3D20A002E1890 /* Info.plist */,
+			);
+			path = ConvertAudio;
+			sourceTree = "<group>";
+		};
+		DCA419801FE3D20A002E1890 /* ConvertAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA419811FE3D20A002E1890 /* ConvertAudioTests.swift */,
+				DCA419831FE3D20A002E1890 /* Info.plist */,
+			);
+			path = ConvertAudioTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA419681FE3D20A002E1890 /* ConvertAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA419861FE3D20A002E1890 /* Build configuration list for PBXNativeTarget "ConvertAudio" */;
+			buildPhases = (
+				A8A06DF144AD70DD06627EA2 /* [CP] Check Pods Manifest.lock */,
+				DCA419651FE3D20A002E1890 /* Sources */,
+				DCA419661FE3D20A002E1890 /* Frameworks */,
+				DCA419671FE3D20A002E1890 /* Resources */,
+				6211F032AA301FA4F6891941 /* [CP] Embed Pods Frameworks */,
+				EA93766E2BA182A82339A3A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertAudio;
+			productName = ConvertAudio;
+			productReference = DCA419691FE3D20A002E1890 /* ConvertAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA4197C1FE3D20A002E1890 /* ConvertAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA419891FE3D20A002E1890 /* Build configuration list for PBXNativeTarget "ConvertAudioTests" */;
+			buildPhases = (
+				B051A7C353E45DFC16CC6AB5 /* [CP] Check Pods Manifest.lock */,
+				DCA419791FE3D20A002E1890 /* Sources */,
+				DCA4197A1FE3D20A002E1890 /* Frameworks */,
+				DCA4197B1FE3D20A002E1890 /* Resources */,
+				9EEA32488443A8DA56873494 /* [CP] Embed Pods Frameworks */,
+				D695067BE267F5A66B57B53C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA4197F1FE3D20A002E1890 /* PBXTargetDependency */,
+			);
+			name = ConvertAudioTests;
+			productName = ConvertAudioTests;
+			productReference = DCA4197D1FE3D20A002E1890 /* ConvertAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA419611FE3D20A002E1890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DoLH;
+				TargetAttributes = {
+					DCA419681FE3D20A002E1890 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DCA4197C1FE3D20A002E1890 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCA419681FE3D20A002E1890;
+					};
+				};
+			};
+			buildConfigurationList = DCA419641FE3D20A002E1890 /* Build configuration list for PBXProject "ConvertAudio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA419601FE3D20A002E1890;
+			productRefGroup = DCA4196A1FE3D20A002E1890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA419681FE3D20A002E1890 /* ConvertAudio */,
+				DCA4197C1FE3D20A002E1890 /* ConvertAudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA419671FE3D20A002E1890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA419911FE3D863002E1890 /* record_93.m4a in Resources */,
+				DCA419771FE3D20A002E1890 /* LaunchScreen.storyboard in Resources */,
+				DCA419741FE3D20A002E1890 /* Assets.xcassets in Resources */,
+				DCA419721FE3D20A002E1890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4197B1FE3D20A002E1890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6211F032AA301FA4F6891941 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConvertAudio/Pods-ConvertAudio-frameworks.sh",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertAudio/Pods-ConvertAudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEA32488443A8DA56873494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertAudioTests/Pods-ConvertAudioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A06DF144AD70DD06627EA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConvertAudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B051A7C353E45DFC16CC6AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConvertAudioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D695067BE267F5A66B57B53C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertAudioTests/Pods-ConvertAudioTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA93766E2BA182A82339A3A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertAudio/Pods-ConvertAudio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA419651FE3D20A002E1890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4198F1FE3D239002E1890 /* Utility.swift in Sources */,
+				DCA4198D1FE3D212002E1890 /* SongExporter.swift in Sources */,
+				DCA4196F1FE3D20A002E1890 /* ViewController.swift in Sources */,
+				DCA4196D1FE3D20A002E1890 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA419791FE3D20A002E1890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA419821FE3D20A002E1890 /* ConvertAudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA4197F1FE3D20A002E1890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA419681FE3D20A002E1890 /* ConvertAudio */;
+			targetProxy = DCA4197E1FE3D20A002E1890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA419701FE3D20A002E1890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA419711FE3D20A002E1890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA419751FE3D20A002E1890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA419761FE3D20A002E1890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA419841FE3D20A002E1890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA419851FE3D20A002E1890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA419871FE3D20A002E1890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04FF369368B8578CB8D9992 /* Pods-ConvertAudio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConvertAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolh.ConvertAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgeHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCA419881FE3D20A002E1890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0E17D0355CD75DD4AD9162 /* Pods-ConvertAudio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConvertAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolh.ConvertAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgeHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCA4198A1FE3D20A002E1890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CC70327D86DAC77AB3DAE7 /* Pods-ConvertAudioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConvertAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolh.ConvertAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertAudio.app/ConvertAudio";
+			};
+			name = Debug;
+		};
+		DCA4198B1FE3D20A002E1890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAE1D7BFF9C5E56B797907C /* Pods-ConvertAudioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConvertAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolh.ConvertAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertAudio.app/ConvertAudio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA419641FE3D20A002E1890 /* Build configuration list for PBXProject "ConvertAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA419841FE3D20A002E1890 /* Debug */,
+				DCA419851FE3D20A002E1890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA419861FE3D20A002E1890 /* Build configuration list for PBXNativeTarget "ConvertAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA419871FE3D20A002E1890 /* Debug */,
+				DCA419881FE3D20A002E1890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA419891FE3D20A002E1890 /* Build configuration list for PBXNativeTarget "ConvertAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4198A1FE3D20A002E1890 /* Debug */,
+				DCA4198B1FE3D20A002E1890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA419611FE3D20A002E1890 /* Project object */;
+}
